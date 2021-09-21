@@ -72,5 +72,6 @@ The log files in the dataset you'll be working with are partitioned by year and 
 
 ## 6. Database Schema 
 
+The star schema has one fact table (songplays), and four dimension tables (users, songs, artists, time). DROP, CREATE, INSERT, and SELECT queries are defined in `sql_queries.py`. `create_tables.py` uses functions create_database, drop_tables, and create_tables to create the database sparkifydb and the required tables.
 
 ![ERD](ERD.png)
