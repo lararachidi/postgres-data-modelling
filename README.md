@@ -24,7 +24,7 @@ Run the container
 
 ```docker run -d --name postgres-student-container -p 5432:5432 onekenken/postgres-student-image```
 
-The create_tables.py pre-defined connection conn = psycopg2.connect("host=127.0.0.1 dbname=studentdb user=student password=student") will now connect to the container.
+The `create_tables.py` pre-defined connection conn = psycopg2.connect("host=127.0.0.1 dbname=studentdb user=student password=student") will now connect to the container.
 
 To stop and remove the container after the exercise
 
