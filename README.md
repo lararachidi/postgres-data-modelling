@@ -8,7 +8,7 @@ The raw data is in two directories: a directory of JSON logs on user activity on
 
 ## 2. Postgres Database 
 
-Here is a [link](https://pynative.com/python-postgresql-tutorial/) to help create a Postgres database and connect to it. This is Python PostgreSQL tutorial using Psycopg2. It demonstrates how to use the Psycopg2 module to connect to PostgreSQL and perform SQL queries, database operations.
+Here is a [link](https://pynative.com/python-postgresql-tutorial/) to help create a Postgres database and connect to it. This is a Python PostgreSQL tutorial using Psycopg2. It demonstrates how to use the Psycopg2 module to connect to PostgreSQL and perform SQL queries, database operations.
 
 Alternatively, you can use a Postgres docker image (available [here](https://hub.docker.com/r/onekenken/postgres-student-image)) which includes a superuser 'student' , password 'student', and database studentdb. In this case, there is no need to install Postgres as it runs in the container. 
 
