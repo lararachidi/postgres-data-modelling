@@ -29,6 +29,8 @@ The create_tables.py pre-defined connection conn = psycopg2.connect("host=127.0.
 To stop and remove the container after the exercise
 
 ```docker stop postgres-student-container```
+
+
 ```docker rm postgres-student-container```
 
 ## 3. Run python scripts
