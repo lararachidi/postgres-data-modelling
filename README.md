@@ -12,7 +12,7 @@ Here is a [link](https://pynative.com/python-postgresql-tutorial/) to help creat
 
 Alternatively, you can use a Postgres docker image (available [here](https://hub.docker.com/r/onekenken/postgres-student-image)) which includes a superuser 'student' , password 'student', and database studentdb. In this case, there is no need to install Postgres as it runs in the container. 
 
-To download the image, install docker which requires to create a username and password. In a terminal, log into docker hub (you'll be prompted for your docker username and password)
+To download the image, install docker which requires to create a username and password. In a terminal, log into docker hub (you'll be prompted for your docker username and password).
 
 ```docker login docker.io```
 
